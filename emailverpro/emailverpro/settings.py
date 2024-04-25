@@ -142,8 +142,8 @@ mail_pass = os.environ.get("PASSWORD")
 
 # Email settings for Sakurahost SMTP server
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "alpha.sakurahost.co.tz"
-EMAIL_PORT = 465  # Use port 465 for SMTP with SSL/TLS
+EMAIL_HOST = "your host email here "
+EMAIL_PORT = 465  # Use port 465 for SMTP with SSL/TLS you can also use port 587 
 EMAIL_USE_SSL = True  # Use SSL/TLS for secure connection
 EMAIL_HOST_USER = mail  # Your email address
 EMAIL_HOST_PASSWORD = mail_pass  # Your email password
